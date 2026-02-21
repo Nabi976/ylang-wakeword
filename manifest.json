@@ -1,16 +1,12 @@
 {
   "type": "micro",
-  "wake_word": "ee lahng",
+  "wake_word": "ee_lahng",
   "author": "Nabi",
   "website": "https://github.com/Nabi976/ylang-wakeword",
+  "version": 1,
   "model": "ee_lahng.tflite",
-  "trained_languages": ["en"],
-  "version": 2,
   "micro": {
-    "probability_cutoff": 0.97,
-    "sliding_window_size": 5,
-    "feature_step_size": 10,
-    "tensor_arena_size": 26080,
-    "minimum_esphome_version": "2024.7.0"
+    "probability_cutoff": 0.5,
+    "sliding_window_size": 5
   }
 }

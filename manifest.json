@@ -2,7 +2,7 @@
   "type": "micro",
   "wake_word": "ee lahng",
   "author": "Nabihiyou",
-  "website": ""https://github.com/Nabi976/ylang-wakeword"",
+  "website": "https://github.com/Nabi976/ylang-wakeword",
   "model": "ee_lahng.tflite",
   "trained_languages": ["en"],
   "version": 2,
